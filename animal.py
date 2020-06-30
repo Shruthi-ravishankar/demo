@@ -17,8 +17,13 @@ def dog():
 def cow():
     print("Moo!")
 
+
 def duck();
     print("Quack!")
+ 
+def lion():
+        print("Roar!")
+
 
 if __name__ == "__main__":
     if sys.argv[1] == 'dog':
@@ -29,5 +34,7 @@ if __name__ == "__main__":
         cow()
     elif sys.argv[1] == 'duck':
         duck()
+    elif sys.argv[1] == 'lion':
+        lion()
     else:
         default()
